@@ -1,21 +1,14 @@
 import React from 'react';
-import { TemplateGibs, GContainer, GRow, GColumn } from './Main';
+import { TemplateGibs, GMenu} from './Main';
 const App = () => {
   return (
     <TemplateGibs>
-      <GContainer>
-        <GRow>
-          <GColumn Desk="4">
-            <p>Teste</p>
-          </GColumn>
-          <GColumn Desk="4">
-            <p>Teste</p>
-          </GColumn>
-          <GColumn Desk="4">
-            <p>Teste</p>
-          </GColumn>
-        </GRow>
-      </GContainer>
+      <GMenu
+        Background={{ GCardStyle: "#3f51b5" }}
+        BoxShadow={{ GCardStyle: "0px 3px 7px 0 rgba(0, 0, 0, 0.26)" }} 
+        ColorBorder={{ GCardStyle: "#3f51b5" }} 
+      >
+      
     </TemplateGibs>
   );
 }
