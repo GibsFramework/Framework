@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 //Medias Queryes
-import { device } from './Breackpoints';
+import { device } from './Breakpoints';
 
 export const TemplateGibs = styled.div`
     width: 100%;
